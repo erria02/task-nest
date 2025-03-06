@@ -7,18 +7,18 @@ class TagSerializer(ModelSerializer):
         fields = ('id', 'title')
         
 class TaskSerializer(ModelSerializer):
-    tag = TagSerializer(read_only=True)
+    tag = TagSerializer()
     class Meta:
         model = TaskModel
         fields = ('id', 'title', 'priority', 'completed', 'description', 'created_at', 'updated_at', 'tag')
         
-    # @atomic
-    # def create(self, validated_data):
-    #     tag = validated_data.pop('tag')
-    #     tag = TagModel.objects.create(**tag)
-    #     task = TaskModel.objects.create(**validated_data, tag=tag)
-    #     task.save()
-    #     return task
+    @atomic
+    def create(self, validated_data):
+        tag = validated_data.pop('tag')
+        tag = TagModel.objects.create(**tag)
+        task = TaskModel.objects.create(**validated_data, tag = tag)
+        task.save()
+        return task
     
 class UpdateTaskSerializer(ModelSerializer):
     class Meta:

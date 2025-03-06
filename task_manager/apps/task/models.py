@@ -26,7 +26,7 @@ class TaskModel(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     tag = models.ForeignKey(TagModel, on_delete=models.SET_NULL, null=True, blank=True)
-    project = models.ForeignKey(ProjectModel, on_delete=models.CASCADE, blank=True, related_name='task')
+    project = models.ForeignKey(ProjectModel, on_delete=models.CASCADE, blank=True, null=True, related_name='task')
     
     def __str__(self):
         return f"ID: {self.id} \n Title: {self.title} \n Priority: {self.priority}"
