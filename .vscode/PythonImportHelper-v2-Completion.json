@@ -72,6 +72,22 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "include",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -136,14 +152,6 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -272,35 +280,35 @@
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "BaseModel",
+        "importPath": "core.models",
+        "description": "core.models",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "core.models",
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "BaseModel",
+        "importPath": "core.models",
+        "description": "core.models",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "core.models",
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "BaseModel",
+        "importPath": "core.models",
+        "description": "core.models",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "core.models",
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "TaskModel",
+        "importPath": "apps.task.models",
+        "description": "apps.task.models",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "apps.task.models",
         "documentation": {}
     },
     {
@@ -320,11 +328,35 @@
         "documentation": {}
     },
     {
-        "label": "ListTagApiView",
-        "importPath": "apps.tag.views",
-        "description": "apps.tag.views",
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
         "isExtraImport": true,
-        "detail": "apps.tag.views",
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TaskSerializer",
+        "importPath": "apps.task.serializers",
+        "description": "apps.task.serializers",
+        "isExtraImport": true,
+        "detail": "apps.task.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
         "documentation": {}
     },
     {
@@ -352,19 +384,27 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "core.models",
-        "description": "core.models",
+        "label": "CreateAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
         "isExtraImport": true,
-        "detail": "core.models",
+        "detail": "rest_framework.generics",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "core.models",
-        "description": "core.models",
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
         "isExtraImport": true,
-        "detail": "core.models",
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "ListTagApiView",
+        "importPath": "apps.tag.views",
+        "description": "apps.tag.views",
+        "isExtraImport": true,
+        "detail": "apps.tag.views",
         "documentation": {}
     },
     {
@@ -373,6 +413,38 @@
         "description": "apps.tag.models",
         "isExtraImport": true,
         "detail": "apps.tag.models",
+        "documentation": {}
+    },
+    {
+        "label": "TagModel",
+        "importPath": "apps.tag.models",
+        "description": "apps.tag.models",
+        "isExtraImport": true,
+        "detail": "apps.tag.models",
+        "documentation": {}
+    },
+    {
+        "label": "TagSerializer",
+        "importPath": "apps.tag.serializers",
+        "description": "apps.tag.serializers",
+        "isExtraImport": true,
+        "detail": "apps.tag.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTaskApi",
+        "importPath": "apps.task.views",
+        "description": "apps.task.views",
+        "isExtraImport": true,
+        "detail": "apps.task.views",
+        "documentation": {}
+    },
+    {
+        "label": "ListTaskApi",
+        "importPath": "apps.task.views",
+        "description": "apps.task.views",
+        "isExtraImport": true,
+        "detail": "apps.task.views",
         "documentation": {}
     },
     {
@@ -474,6 +546,14 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -510,6 +590,42 @@
         "documentation": {}
     },
     {
+        "label": "ProjectModel",
+        "kind": 6,
+        "importPath": "apps.project.models",
+        "description": "apps.project.models",
+        "peekOfCode": "class ProjectModel(BaseModel):\n    class Meta:\n        db_table = 'projects'\n    name = models.CharField(max_length=25)\n    tasks = models.ForeignKey(TaskModel, on_delete=models.CASCADE, related_name='project')",
+        "detail": "apps.project.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSerializer",
+        "kind": 6,
+        "importPath": "apps.project.serializer",
+        "description": "apps.project.serializer",
+        "peekOfCode": "class ProjectSerializer(ModelSerializer):\n    task = TaskSerializer\n    class Meta:\n        model = ProjectModel\n        fields = ('name', 'tasks')\n    read_only_fields = ('tasks',)",
+        "detail": "apps.project.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "apps.project.urls",
+        "description": "apps.project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('list/', ListProjectApiView.as_view(),),\n]",
+        "detail": "apps.project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ListProjectApiView",
+        "kind": 6,
+        "importPath": "apps.project.views",
+        "description": "apps.project.views",
+        "peekOfCode": "class ListProjectApiView(ListAPIView):\n    serializer_class = ProjectSerializer\n    queryset = ProjectModel.objects.all()",
+        "detail": "apps.project.views",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "apps.tag.migrations.0001_initial",
@@ -541,7 +657,7 @@
         "kind": 6,
         "importPath": "apps.tag.serializers",
         "description": "apps.tag.serializers",
-        "peekOfCode": "class TagSerializer(ModelSerializer):\n    class Meta:\n        model = TagModel\n        fields = '__all__'",
+        "peekOfCode": "class TagSerializer(ModelSerializer):\n    class Meta:\n        model = TagModel\n<<<<<<< HEAD\n        fields = '__all__'\n=======\n        fields = ('name',)\n>>>>>>> project",
         "detail": "apps.tag.serializers",
         "documentation": {}
     },
@@ -588,6 +704,42 @@
         "description": "apps.task.models",
         "peekOfCode": "class TaskModel(models.Model):\n    class Meta:\n        db_table = 'tasks'\n    name = models.CharField(max_length=25)\n    description = models.TextField()\n    deadline = models.DateTimeField(blank=True, null=True)\n    tag = models.ManyToManyField(TagModel, related_name='tasks', blank=True)",
         "detail": "apps.task.models",
+        "documentation": {}
+    },
+    {
+        "label": "TaskSerializer",
+        "kind": 6,
+        "importPath": "apps.task.serializers",
+        "description": "apps.task.serializers",
+        "peekOfCode": "class TaskSerializer(ModelSerializer):\n    tag = TagSerializer(many=True)\n    class Meta:\n        model = TaskModel\n        fields = ('name', 'description', 'deadline', 'tag')\n    def create(self, validated_data:dict):\n        validated_data.setdefault('tag', None)\n        tag = validated_data.pop('tag')\n        if tag:\n            list_tag = []",
+        "detail": "apps.task.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "apps.task.urls",
+        "description": "apps.task.urls",
+        "peekOfCode": "urlpatterns = [\n    path('list/', ListTaskApi.as_view() ),\n    path('create/', CreateTaskApi.as_view())\n]",
+        "detail": "apps.task.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTaskApi",
+        "kind": 6,
+        "importPath": "apps.task.views",
+        "description": "apps.task.views",
+        "peekOfCode": "class CreateTaskApi(CreateAPIView):\n    serializer_class = TaskSerializer\nclass ListTaskApi(ListAPIView):\n    serializer_class =TaskSerializer\n    queryset = TaskModel.objects.all()",
+        "detail": "apps.task.views",
+        "documentation": {}
+    },
+    {
+        "label": "ListTaskApi",
+        "kind": 6,
+        "importPath": "apps.task.views",
+        "description": "apps.task.views",
+        "peekOfCode": "class ListTaskApi(ListAPIView):\n    serializer_class =TaskSerializer\n    queryset = TaskModel.objects.all()",
+        "detail": "apps.task.views",
         "documentation": {}
     },
     {
@@ -856,7 +1008,7 @@
         "kind": 5,
         "importPath": "config.urls",
         "description": "config.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('apps.auth.urls')),\n    path('tag/', include('apps.tag.urls'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('apps.auth.urls')),\n    path('tag/', include('apps.tag.urls')),\n    path('auth', include('apps.auth.urls')),\n    path('task/', include('apps.task.urls')),\n    path('project/', include('apps.project.urls'))\n]",
         "detail": "config.urls",
         "documentation": {}
     },
