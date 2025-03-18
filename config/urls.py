@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', include('apps.auth.urls')),
     path('tag/', include('apps.tag.urls')),
-    path('auth', include('apps.auth.urls')),
+    path('user/', include('apps.user.urls')),
     path('task/', include('apps.task.urls')),
     path('project/', include('apps.project.urls'))
 ]

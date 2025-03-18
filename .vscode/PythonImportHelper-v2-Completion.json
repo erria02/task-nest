@@ -80,6 +80,22 @@
         "documentation": {}
     },
     {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -296,14 +312,6 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "core.models",
-        "description": "core.models",
-        "isExtraImport": true,
-        "detail": "core.models",
-        "documentation": {}
-    },
-    {
         "label": "TaskModel",
         "importPath": "apps.task.models",
         "description": "apps.task.models",
@@ -400,11 +408,59 @@
         "documentation": {}
     },
     {
+        "label": "RetrieveAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
         "label": "ListTagApiView",
         "importPath": "apps.tag.views",
         "description": "apps.tag.views",
         "isExtraImport": true,
         "detail": "apps.tag.views",
+        "documentation": {}
+    },
+    {
+        "label": "APITestCase",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "APITestCase",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "rest_framework.reverse",
+        "description": "rest_framework.reverse",
+        "isExtraImport": true,
+        "detail": "rest_framework.reverse",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -457,6 +513,70 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileModel",
+        "importPath": "apps.user.models",
+        "description": "apps.user.models",
+        "isExtraImport": true,
+        "detail": "apps.user.models",
+        "documentation": {}
+    },
+    {
         "label": "BaseUserManager",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
@@ -489,19 +609,35 @@
         "documentation": {}
     },
     {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
         "label": "atomic",
         "importPath": "django.db.transaction",
         "description": "django.db.transaction",
         "isExtraImport": true,
         "detail": "django.db.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "importPath": "apps.auth.urls",
+        "description": "apps.auth.urls",
+        "isExtraImport": true,
+        "detail": "apps.auth.urls",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
         "documentation": {}
     },
     {
@@ -543,14 +679,6 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -657,7 +785,7 @@
         "kind": 6,
         "importPath": "apps.tag.serializers",
         "description": "apps.tag.serializers",
-        "peekOfCode": "class TagSerializer(ModelSerializer):\n    class Meta:\n        model = TagModel\n<<<<<<< HEAD\n        fields = '__all__'\n=======\n        fields = ('name',)\n>>>>>>> project",
+        "peekOfCode": "class TagSerializer(ModelSerializer):\n    class Meta:\n        model = TagModel\n        fields = ('name',)",
         "detail": "apps.tag.serializers",
         "documentation": {}
     },
@@ -686,6 +814,15 @@
         "description": "apps.task.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('tag', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='TaskModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "apps.task.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "TaskTestCase",
+        "kind": 6,
+        "importPath": "apps.task.tests.test_view",
+        "description": "apps.task.tests.test_view",
+        "peekOfCode": "class TaskTestCase(APITestCase):\n    def _createtask(self):\n        sample_task = {\n            'name': 'test',\n            'description': 'test'\n        }\n        self.client.post(reverse('tasks_create'), sample_task)\n    def test_create_task(self):\n        count = TaskModel.objects.count()\n        sample_task = {",
+        "detail": "apps.task.tests.test_view",
         "documentation": {}
     },
     {
@@ -720,7 +857,7 @@
         "kind": 5,
         "importPath": "apps.task.urls",
         "description": "apps.task.urls",
-        "peekOfCode": "urlpatterns = [\n    path('list/', ListTaskApi.as_view() ),\n    path('create/', CreateTaskApi.as_view())\n]",
+        "peekOfCode": "urlpatterns = [\n    path('list/', ListTaskApi.as_view(), name = 'tasks_list' ),\n    path('create/', CreateTaskApi.as_view(), name = 'tasks_create')\n]",
         "detail": "apps.task.urls",
         "documentation": {}
     },
@@ -749,6 +886,42 @@
         "description": "apps.user.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProfileModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "apps.user.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializerTest",
+        "kind": 6,
+        "importPath": "apps.user.tests.test_serializer",
+        "description": "apps.user.tests.test_serializer",
+        "peekOfCode": "class UserSerializerTest(TestCase):\n    def test_user_create(self):\n        data = {\n            \"email\": \"test@gmail.com\",\n            \"password\": \"password\",\n            \"profile\": {\n                \"nickname\": \"Test\",\n                \"bio\": \"test\"\n            }\n        }",
+        "detail": "apps.user.tests.test_serializer",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 5,
+        "importPath": "apps.user.tests.test_serializer",
+        "description": "apps.user.tests.test_serializer",
+        "peekOfCode": "UserModel = get_user_model()\nclass UserSerializerTest(TestCase):\n    def test_user_create(self):\n        data = {\n            \"email\": \"test@gmail.com\",\n            \"password\": \"password\",\n            \"profile\": {\n                \"nickname\": \"Test\",\n                \"bio\": \"test\"\n            }",
+        "detail": "apps.user.tests.test_serializer",
+        "documentation": {}
+    },
+    {
+        "label": "UserViewsTest",
+        "kind": 6,
+        "importPath": "apps.user.tests.test_view",
+        "description": "apps.user.tests.test_view",
+        "peekOfCode": "class UserViewsTest(APITestCase):\n    def setUp(self):\n        self.admin_user = UserModel.objects.create_superuser(\n            email=\"admin@gmail.com\",\n            password=\"adminpass\"\n        )\n        self.regular_user = UserModel.objects.create_user(\n            email=\"user@gmail.com\",\n            password=\"userpass\"\n        )",
+        "detail": "apps.user.tests.test_view",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 5,
+        "importPath": "apps.user.tests.test_view",
+        "description": "apps.user.tests.test_view",
+        "peekOfCode": "UserModel = get_user_model()\nclass UserViewsTest(APITestCase):\n    def setUp(self):\n        self.admin_user = UserModel.objects.create_superuser(\n            email=\"admin@gmail.com\",\n            password=\"adminpass\"\n        )\n        self.regular_user = UserModel.objects.create_user(\n            email=\"user@gmail.com\",\n            password=\"userpass\"",
+        "detail": "apps.user.tests.test_view",
         "documentation": {}
     },
     {
@@ -815,11 +988,47 @@
         "documentation": {}
     },
     {
-        "label": "GetM",
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "apps.user.urls",
+        "description": "apps.user.urls",
+        "peekOfCode": "urlpatterns = [\n    path('/me', GetMe.as_view(), name='get_me'),\n    path('create/', CreateUserApiView.as_view(), name='create_user')\n]",
+        "detail": "apps.user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "GetMe",
         "kind": 6,
         "importPath": "apps.user.views",
         "description": "apps.user.views",
-        "peekOfCode": "class GetMe",
+        "peekOfCode": "class GetMe(RetrieveAPIView):\n    permission_classes=(IsAuthenticated,)\n    serializer_class = UserSerializer\n    def get_object(self):\n        return self.request.user\nclass ListUserApiView(ListAPIView):\n    permission_classes = [IsAdminUser]\n    queryset = UserModel.objects.all()\n    serializer_class = UserSerializer\nclass CreateUserApiView(CreateAPIView):",
+        "detail": "apps.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "ListUserApiView",
+        "kind": 6,
+        "importPath": "apps.user.views",
+        "description": "apps.user.views",
+        "peekOfCode": "class ListUserApiView(ListAPIView):\n    permission_classes = [IsAdminUser]\n    queryset = UserModel.objects.all()\n    serializer_class = UserSerializer\nclass CreateUserApiView(CreateAPIView):\n    serializer_class = UserSerializer\n    queryset = UserModel.objects.all()",
+        "detail": "apps.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUserApiView",
+        "kind": 6,
+        "importPath": "apps.user.views",
+        "description": "apps.user.views",
+        "peekOfCode": "class CreateUserApiView(CreateAPIView):\n    serializer_class = UserSerializer\n    queryset = UserModel.objects.all()",
+        "detail": "apps.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 5,
+        "importPath": "apps.user.views",
+        "description": "apps.user.views",
+        "peekOfCode": "UserModel = get_user_model()\n# Create your views here.\nclass GetMe(RetrieveAPIView):\n    permission_classes=(IsAuthenticated,)\n    serializer_class = UserSerializer\n    def get_object(self):\n        return self.request.user\nclass ListUserApiView(ListAPIView):\n    permission_classes = [IsAdminUser]\n    queryset = UserModel.objects.all()",
         "detail": "apps.user.views",
         "documentation": {}
     },
@@ -1008,7 +1217,7 @@
         "kind": 5,
         "importPath": "config.urls",
         "description": "config.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('apps.auth.urls')),\n    path('tag/', include('apps.tag.urls')),\n    path('auth', include('apps.auth.urls')),\n    path('task/', include('apps.task.urls')),\n    path('project/', include('apps.project.urls'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('apps.auth.urls')),\n    path('tag/', include('apps.tag.urls')),\n    path('user/', include('apps.user.urls')),\n    path('task/', include('apps.task.urls')),\n    path('project/', include('apps.project.urls'))\n]",
         "detail": "config.urls",
         "documentation": {}
     },

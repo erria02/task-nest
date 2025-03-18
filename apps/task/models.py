@@ -1,5 +1,4 @@
 from django.db import models
-from core.models import BaseModel
 from apps.tag.models import TagModel
 # Create your models here.
 
