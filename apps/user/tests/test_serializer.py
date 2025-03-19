@@ -1,8 +1,8 @@
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 from rest_framework.exceptions import ValidationError
-from ..models import ProfileModel
-from ..serializers import UserSerializer
+from apps.user.models import ProfileModel
+from apps.user.serializers import UserSerializer
 
 UserModel = get_user_model()
 

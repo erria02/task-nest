@@ -7,5 +7,4 @@ SIMPLE_JWT = {
     "BLACKLIST_AFTER_ROTATION": True,
     "UPDATE_LAST_LOGIN": True,
     "AUTH_HEADER_TYPES": ("Bearer",),
-    "USER_AUTHENTICATION_RULE": "apps.auth.views.default_user_authentication_rule",
 }

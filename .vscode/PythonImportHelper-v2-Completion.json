@@ -168,51 +168,12 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "django.db.models.deletion",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
         "documentation": {}
     },
     {
@@ -288,11 +249,75 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -448,22 +473,6 @@
         "documentation": {}
     },
     {
-        "label": "status",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
         "label": "TagModel",
         "importPath": "apps.tag.models",
         "description": "apps.tag.models",
@@ -477,6 +486,30 @@
         "description": "apps.tag.models",
         "isExtraImport": true,
         "detail": "apps.tag.models",
+        "documentation": {}
+    },
+    {
+        "label": "TagModel",
+        "importPath": "apps.tag.models",
+        "description": "apps.tag.models",
+        "isExtraImport": true,
+        "detail": "apps.tag.models",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -501,15 +534,6 @@
         "description": "apps.task.views",
         "isExtraImport": true,
         "detail": "apps.task.views",
-        "documentation": {}
-    },
-    {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
         "documentation": {}
     },
     {
@@ -577,6 +601,22 @@
         "documentation": {}
     },
     {
+        "label": "ProfileModel",
+        "importPath": "apps.user.models",
+        "description": "apps.user.models",
+        "isExtraImport": true,
+        "detail": "apps.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "importPath": "apps.user.serializers",
+        "description": "apps.user.serializers",
+        "isExtraImport": true,
+        "detail": "apps.user.serializers",
+        "documentation": {}
+    },
+    {
         "label": "BaseUserManager",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
@@ -634,10 +674,10 @@
     },
     {
         "label": "IsAdminUser",
-        "importPath": "rest_framework.permissions",
-        "description": "rest_framework.permissions",
+        "importPath": "core.permissions",
+        "description": "core.permissions",
         "isExtraImport": true,
-        "detail": "rest_framework.permissions",
+        "detail": "core.permissions",
         "documentation": {}
     },
     {
@@ -682,6 +722,14 @@
         "documentation": {}
     },
     {
+        "label": "BasePermission",
+        "importPath": "rest_framework.permissions ",
+        "description": "rest_framework.permissions ",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions ",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -706,6 +754,15 @@
         "description": "apps.auth.urls",
         "peekOfCode": "urlpatterns = [\n    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n]",
         "detail": "apps.auth.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "apps.project.migrations.0001_initial",
+        "description": "apps.project.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('task', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProjectModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "apps.project.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -821,7 +878,7 @@
         "kind": 6,
         "importPath": "apps.task.tests.test_view",
         "description": "apps.task.tests.test_view",
-        "peekOfCode": "class TaskTestCase(APITestCase):\n    def _createtask(self):\n        sample_task = {\n            'name': 'test',\n            'description': 'test'\n        }\n        self.client.post(reverse('tasks_create'), sample_task)\n    def test_create_task(self):\n        count = TaskModel.objects.count()\n        sample_task = {",
+        "peekOfCode": "class TaskTestCase(APITestCase):\n    def _createtask(self):\n        sample_task = {\n            'name': 'test',\n            'description': 'test'\n        }\n        self.client.post(reverse('tasks_create'), sample_task)\n    def test_create_task(self):\n        count = TaskModel.objects.count()\n        tag = TagModel.objects.create(name='test')",
         "detail": "apps.task.tests.test_view",
         "documentation": {}
     },
@@ -848,7 +905,7 @@
         "kind": 6,
         "importPath": "apps.task.serializers",
         "description": "apps.task.serializers",
-        "peekOfCode": "class TaskSerializer(ModelSerializer):\n    tag = TagSerializer(many=True)\n    class Meta:\n        model = TaskModel\n        fields = ('name', 'description', 'deadline', 'tag')\n    def create(self, validated_data:dict):\n        validated_data.setdefault('tag', None)\n        tag = validated_data.pop('tag')\n        if tag:\n            list_tag = []",
+        "peekOfCode": "class TaskSerializer(ModelSerializer):\n    tag = TagSerializer(many=True, read_only=True)\n    class Meta:\n        model = TaskModel\n        fields = ('name', 'description', 'deadline', 'tag')\n    def create(self, validated_data:dict):\n        validated_data.setdefault('tag', None)\n        tag = validated_data.pop('tag')\n        if tag:\n            list_tag = []",
         "detail": "apps.task.serializers",
         "documentation": {}
     },
@@ -911,7 +968,7 @@
         "kind": 6,
         "importPath": "apps.user.tests.test_view",
         "description": "apps.user.tests.test_view",
-        "peekOfCode": "class UserViewsTest(APITestCase):\n    def setUp(self):\n        self.admin_user = UserModel.objects.create_superuser(\n            email=\"admin@gmail.com\",\n            password=\"adminpass\"\n        )\n        self.regular_user = UserModel.objects.create_user(\n            email=\"user@gmail.com\",\n            password=\"userpass\"\n        )",
+        "peekOfCode": "class UserViewsTest(APITestCase):\n    def setUp(self):\n        self.admin_profile = ProfileModel.objects.create(\n            nickname=\"Tester\",\n            bio=\"Test bio\"\n        )\n        self.user_profile = ProfileModel.objects.create(\n            nickname=\"Tester\",\n            bio=\"Test bio\"\n        )",
         "detail": "apps.user.tests.test_view",
         "documentation": {}
     },
@@ -920,7 +977,7 @@
         "kind": 5,
         "importPath": "apps.user.tests.test_view",
         "description": "apps.user.tests.test_view",
-        "peekOfCode": "UserModel = get_user_model()\nclass UserViewsTest(APITestCase):\n    def setUp(self):\n        self.admin_user = UserModel.objects.create_superuser(\n            email=\"admin@gmail.com\",\n            password=\"adminpass\"\n        )\n        self.regular_user = UserModel.objects.create_user(\n            email=\"user@gmail.com\",\n            password=\"userpass\"",
+        "peekOfCode": "UserModel = get_user_model()\nclass UserViewsTest(APITestCase):\n    def setUp(self):\n        self.admin_profile = ProfileModel.objects.create(\n            nickname=\"Tester\",\n            bio=\"Test bio\"\n        )\n        self.user_profile = ProfileModel.objects.create(\n            nickname=\"Tester\",\n            bio=\"Test bio\"",
         "detail": "apps.user.tests.test_view",
         "documentation": {}
     },
@@ -992,7 +1049,7 @@
         "kind": 5,
         "importPath": "apps.user.urls",
         "description": "apps.user.urls",
-        "peekOfCode": "urlpatterns = [\n    path('/me', GetMe.as_view(), name='get_me'),\n    path('create/', CreateUserApiView.as_view(), name='create_user')\n]",
+        "peekOfCode": "urlpatterns = [\n    path('me/', GetMe.as_view(), name='get_me'),\n    path('create/', CreateUserApiView.as_view(), name='create_user'),\n    path('list/', ListUserApiView.as_view(), name='list_users')\n]",
         "detail": "apps.user.urls",
         "documentation": {}
     },
@@ -1037,7 +1094,7 @@
         "kind": 5,
         "importPath": "config.extra_conf.jwt_config",
         "description": "config.extra_conf.jwt_config",
-        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(days=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=10),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n    \"USER_AUTHENTICATION_RULE\": \"apps.auth.views.default_user_authentication_rule\",\n}",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(days=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=10),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n}",
         "detail": "config.extra_conf.jwt_config",
         "documentation": {}
     },
@@ -1055,7 +1112,7 @@
         "kind": 5,
         "importPath": "config.settings",
         "description": "config.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-khsctmh9o2va-kzz59!&shqrsnlu8m+5n@6hzz!(8c7yn_d!pf'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\n# Application definition",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-khsctmh9o2va-kzz59!&shqrsnlu8m+5n@6hzz!(8c7yn_d!pf'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\nREST_FRAMEWORK = {",
         "detail": "config.settings",
         "documentation": {}
     },
@@ -1064,7 +1121,7 @@
         "kind": 5,
         "importPath": "config.settings",
         "description": "config.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-khsctmh9o2va-kzz59!&shqrsnlu8m+5n@6hzz!(8c7yn_d!pf'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-khsctmh9o2va-kzz59!&shqrsnlu8m+5n@6hzz!(8c7yn_d!pf'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n            'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}",
         "detail": "config.settings",
         "documentation": {}
     },
@@ -1073,7 +1130,7 @@
         "kind": 5,
         "importPath": "config.settings",
         "description": "config.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n            'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\n# Application definition\nINSTALLED_APPS = [",
         "detail": "config.settings",
         "documentation": {}
     },
@@ -1082,7 +1139,7 @@
         "kind": 5,
         "importPath": "config.settings",
         "description": "config.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "ALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'user.UserModel'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n            'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
         "detail": "config.settings",
         "documentation": {}
     },
@@ -1091,7 +1148,16 @@
         "kind": 5,
         "importPath": "config.settings",
         "description": "config.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'user.UserModel'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'apps.auth',",
+        "peekOfCode": "AUTH_USER_MODEL = 'user.UserModel'\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n            'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n            'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "config.settings",
         "documentation": {}
     },
@@ -1246,6 +1312,15 @@
         "description": "core.models",
         "peekOfCode": "class BaseModel(models.Model):\n    class Meta:\n        abstract = True\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)",
         "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "kind": 6,
+        "importPath": "core.permissions",
+        "description": "core.permissions",
+        "peekOfCode": "class IsAdminUser(BasePermission):\n    def has_permission(self, request, view):\n        return bool(request.user and request.user.is_admin)",
+        "detail": "core.permissions",
         "documentation": {}
     },
     {

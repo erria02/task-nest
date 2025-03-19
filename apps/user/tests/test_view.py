@@ -9,19 +9,24 @@ UserModel = get_user_model()
 class UserViewsTest(APITestCase):
 
     def setUp(self):
-        self.admin_user = UserModel.objects.create_superuser(
-            email="admin@gmail.com",
-            password="adminpass"
-        )
-        self.regular_user = UserModel.objects.create_user(
-            email="user@gmail.com",
-            password="userpass"
-        )
-        self.profile = ProfileModel.objects.create(
+        self.admin_profile = ProfileModel.objects.create(
             nickname="Tester",
             bio="Test bio"
         )
-        self.regular_user.profile = self.profile
+        self.user_profile = ProfileModel.objects.create(
+            nickname="Tester",
+            bio="Test bio"
+        )
+        self.admin_user = UserModel.objects.create_superuser(
+            email="admin@gmail.com",
+            password="adminpass",
+            profile =self.admin_profile
+        )
+        self.regular_user = UserModel.objects.create_user(
+            email="user@gmail.com",
+            password="userpass",
+            profile =self.user_profile
+        )
         self.regular_user.save()
 
         self.user_token = self.client.post(reverse("token_obtain_pair"), {"email": "user@gmail.com", "password": "userpass"}).data.get("access")
