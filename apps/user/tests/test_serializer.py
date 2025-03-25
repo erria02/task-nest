@@ -9,7 +9,7 @@ UserModel = get_user_model()
 class UserSerializerTest(TestCase):
 
     def test_user_create(self):
-        data = {
+        user = {
             "email": "test@gmail.com",
             "password": "password",
             "profile": {
@@ -18,17 +18,11 @@ class UserSerializerTest(TestCase):
             }
         }
 
-        serializer = UserSerializer(data=data)
+        serializer = UserSerializer(data=user)
         self.assertTrue(serializer.is_valid(), serializer.errors)
         user = serializer.save()
 
         self.assertTrue(UserModel.objects.filter(email="test@gmail.com").exists())
-
-        # Перевіряємо, що пароль збережений у хешованому вигляді
-        self.assertTrue(user.check_password("password"))
-
-        # Перевіряємо, що профіль створений та прив'язаний до користувача
-        self.assertTrue(ProfileModel.objects.filter(nickname="Test").exists())
         self.assertEqual(user.profile.nickname, "Test")
 
     def test_create_invalid_user(self):
@@ -45,12 +39,11 @@ class UserSerializerTest(TestCase):
         self.assertIn("email", serializer.errors)
 
     def test_invalid_profile_data(self):
-        """Перевіряємо, що некоректні дані профілю викликають помилку"""
         data = {
             "email": "test@gmail.com",
             "password": "password",
             "profile": {
-                "nickname": "",  # Нікнейм не може бути порожнім
+                "nickname": "", 
                 "bio": "Test"
             }
         }

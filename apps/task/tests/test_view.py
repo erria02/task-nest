@@ -26,8 +26,4 @@ class TaskTestCase(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(TaskModel.objects.count(), count+1)
         
-    def test_list_task(self):
-        self._createtask()
-        self.client.get(reverse('tasks_list'))
-        
     

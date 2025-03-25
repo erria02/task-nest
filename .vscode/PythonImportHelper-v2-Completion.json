@@ -950,7 +950,7 @@
         "kind": 6,
         "importPath": "apps.user.tests.test_serializer",
         "description": "apps.user.tests.test_serializer",
-        "peekOfCode": "class UserSerializerTest(TestCase):\n    def test_user_create(self):\n        data = {\n            \"email\": \"test@gmail.com\",\n            \"password\": \"password\",\n            \"profile\": {\n                \"nickname\": \"Test\",\n                \"bio\": \"test\"\n            }\n        }",
+        "peekOfCode": "class UserSerializerTest(TestCase):\n    def test_user_create(self):\n        user = {\n            \"email\": \"test@gmail.com\",\n            \"password\": \"password\",\n            \"profile\": {\n                \"nickname\": \"Test\",\n                \"bio\": \"test\"\n            }\n        }",
         "detail": "apps.user.tests.test_serializer",
         "documentation": {}
     },
@@ -959,7 +959,7 @@
         "kind": 5,
         "importPath": "apps.user.tests.test_serializer",
         "description": "apps.user.tests.test_serializer",
-        "peekOfCode": "UserModel = get_user_model()\nclass UserSerializerTest(TestCase):\n    def test_user_create(self):\n        data = {\n            \"email\": \"test@gmail.com\",\n            \"password\": \"password\",\n            \"profile\": {\n                \"nickname\": \"Test\",\n                \"bio\": \"test\"\n            }",
+        "peekOfCode": "UserModel = get_user_model()\nclass UserSerializerTest(TestCase):\n    def test_user_create(self):\n        user = {\n            \"email\": \"test@gmail.com\",\n            \"password\": \"password\",\n            \"profile\": {\n                \"nickname\": \"Test\",\n                \"bio\": \"test\"\n            }",
         "detail": "apps.user.tests.test_serializer",
         "documentation": {}
     },
