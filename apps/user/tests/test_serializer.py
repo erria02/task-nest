@@ -51,3 +51,5 @@ class UserSerializerTest(TestCase):
         serializer = UserSerializer(data=data)
         self.assertFalse(serializer.is_valid())
         self.assertIn("nickname", serializer.errors["profile"])
+        
+# efoemeofmem
