@@ -19,7 +19,7 @@ migrate:
 
 test:
 
-	.venv/bin/activate && python manage.py test
+	. venv/bin/activate && python manage.py test
 
 run:
 	. venv/bin/activate && python manage.py runserver
