@@ -7,7 +7,11 @@ help:
 	@echo "	 make test     - Виконати тести"
 	@echo "  make run      - Запустити сервер"
 
-install:
+venv:
+	python -m venv venv
+	. venv/bin/activate && pip install --upgrade pip
+
+install: venv
 	. venv/bin/activate && pip install -r requirements.txt
 
 migrate:
