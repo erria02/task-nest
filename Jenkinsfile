@@ -12,11 +12,6 @@ pipeline {
                 sh 'make install'
             }
         }
-        stage('Make migrations') {
-            steps {
-                sh 'make migrate'
-            }
-        }
         stage('Run Tests') {
             steps {
                 sh 'make test'
