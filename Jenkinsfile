@@ -1,8 +1,10 @@
 pipeline {
+    agent any
+
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/erria02/task-nest.git'
+                git branch: 'main', url: 'https://github.com/erria02/task-nest.git'
             }
         }
         stage('Install Dependencies') {
