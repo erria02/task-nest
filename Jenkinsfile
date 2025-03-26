@@ -22,10 +22,5 @@ pipeline {
                 sh 'make test'
             }
         }
-        stage('Run server') {
-            steps {
-                sh 'make run'
-            }
-        }
     }
 }
